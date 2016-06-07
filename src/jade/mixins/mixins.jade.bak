@@ -1,0 +1,12 @@
+include ./header.jade
+include ./game-list.jade
+include ./events-list.jade
+include ./nav-bar.jade
+include ./game-list-xs.jade
+include ./server-list.jade
+include ./text-list.jade
+include ../mixins/ranking.jade
+
+
+
+

@@ -1,0 +1,17 @@
+include ../mixins/mixins.jade
+
+doctype
+html
+  head
+    block title
+    meta(charset='utf-8')
+    meta(name='description',content='顺网游戏平台是中国最大的网吧娱乐互动平台，这里汇集了最好玩的网络游戏、网页游戏、休闲游戏、单机游戏、电竞游戏于一身，还有最全的游戏资讯和游戏开服礼包等信息，为千万网吧用户提供最贴心最便捷的娱乐服务。边玩游戏边赚钱，简单快乐从顺网游戏开始！')
+    meta(name='keywords',content='顺网游戏，顺网， 顺网游戏平台，顺网网页游戏，神器传说官网，神器传说激活码，神器传说攻略，神器传说礼包，神器传说辅助，神器传说职业，九鼎记网游官网，九鼎记网页游戏，绝色唐门官网，绝色唐门礼包')
+    link(rel='stylesheet', href='../style/public.css')
+  body
+    block content
+    block footer
+      include ./../../widgets/footer/footer.jade
+      script(src='../js/base.js')
+   
+    
